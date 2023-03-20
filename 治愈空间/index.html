@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<title>我们的世界-治愈空间</title><!-- 网页名称  link链接-->
+		<link href="css/主页.css" rel="stylesheet" type="text/css" />
+		<script src="js/主页.js"></script>
+	</head>
+	<body bgcolor="bisque"><!--bgcolor 背景颜色--->
+		
+		<body bgcolor="bisque" style="margin: 0;" >
+			<div id="header" style="width: 100%;height: 50px;background-color: coral;top: auto;margin-top: auto;">
+				<a href="index.html" style="width: 100%;height: 100%;font-size: 30px;text-decoration: none;margin-left: 70px;color: cornsilk;">主页</a>
+				<a href="音乐治愈.html" style="width: 100%;height: 5%;font-size: 30px;text-decoration: none;margin-left: 200px;color: cornsilk;">音乐治愈</a>
+				<a href="视频治愈.html" style="width: 100%;height: 5%;font-size: 30px;text-decoration: none;margin-left: 200px;color: cornsilk;">视频治愈</a>
+				<a href="心灵鸡汤.html" style="width: 100%;height: 5%;font-size: 30px;text-decoration: none;margin-left: 200px;color: cornsilk;">心灵鸡汤</a>
+				<a href="旅游治愈.html" style="width: 100%;height: 5%;font-size: 30px;text-decoration: none;margin-left: 200px;color: cornsilk;">旅游治愈</a>
+			</div>			
+		<div id="menuleft" style="background-color: coral;height: 500px;width: 170px;float: left;">
+			<div style="background-color: bisque;">
+				<audio style="font-size: 10px;" controls="controls" autoplay="autoplay" loop="-1" style="float: right;"><!-- -1表示无限循环 true-->
+					<source src="img/淡然Sire%20-%20大眠.mp3" type="audio/mpeg"/><!-- -->
+				</audio><!--添加音乐--><!-- 去除音乐进度条<div style="display:none";cclass="music">	</div>-->
+				<br><br><br><br><br>
+			</div>
+			<h1 class="菜单">治愈方式</h1><br><!--换行br  b表示粗体8=-->
+			<button type="submit" class="音乐治愈按钮" onclick="musiczhiyu();">音乐治愈</button><br><br />
+			<button type="submit" class="视频治愈按钮" onclick="shipinzhiyu();">视频治愈</button><br><br/>
+			<button type="submit" class="心灵鸡汤按钮" onclick="xinling();">心灵鸡汤</button><br><br/>
+			<button type="submit" class="模拟旅游按钮" onclick="hewotanxin();">旅游治愈</button>
+		</div>
+		<div id="menuright" style="background-color: coral;height: 500px;width: 170px;float: right;">
+			<div style="background-color: bisque;">
+				<br><br><br><br><br>
+			</div>
+			<div align="center"><img src="img/熊抱.jpg" style="float: right;width: 50%;" /></div>	
+		</div>
+		<div id="content" style="background-color: bisque;height: 100%;width: 50%;float: left;">	
+			<img src="img/光临.jpg" alt="图片偷偷溜走啦，但快乐还在哦！" class="主页光临图片"/>
+		</div>
+		<div id="weixiu" style="float: right;">
+			<button type="submit" class="维修按钮" onclick="weixiu();">系统维修</button>
+		</div>
+		<div id="footer" style="background-color: darksalmon;clear: both;text-align: center;">版权归属：李汝桦  qq:1923419435</div>	
+	</body>
+</html>

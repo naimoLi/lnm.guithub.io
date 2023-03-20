@@ -1,0 +1,41 @@
+		#主界面{
+				font-size: 50px;
+				color: darkorange;
+				text-align: center;
+				display: block;/*  框类型 block */
+				margin: 0 auto;
+			}
+			.菜单{
+				color: black;
+				height: 10px;
+			}
+			.主页光临图片{
+				width: 1200px;
+				height: 650px;
+			}	
+			.音乐治愈按钮{
+				display: inline-block;
+				background-color: cornsilk;
+				font-size: 20px;
+				color: coral;
+			}
+			.视频治愈按钮{
+				background-color: cornsilk;
+				font-size: 20px;
+				color: coral;
+			}
+			.心灵鸡汤按钮{
+				background-color: cornsilk;
+				font-size: 20px;
+				color: coral;
+				
+			}
+			.模拟旅游按钮{
+				background-color: cornsilk;
+				font-size: 20px;
+				color: coral;
+			}
+			.维修按钮{
+				background-color: lightcoral;
+				font-size: 15px;
+			}

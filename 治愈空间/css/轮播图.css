@@ -1,0 +1,62 @@
+	.all{
+	  width:600px;
+	  height:400px;
+	  border:1px solid #ffa53d;/*边框颜色 margin:0 auto 第一个上边距。第二个左右*/
+	  margin:0 auto;
+	  position:relative;/*定位类型*/
+	}
+	.screen{/*框架*/
+		width:600px;
+		height:500px;
+		overflow:hidden; /*  visible默认值，内容不会被剪辑，会出现在框外 hidden内容被剪辑，其余不可见 scroll滚动条查看 auto如果被剪辑可滑动查看 inherit父类继承*/
+		position:relative;
+		background-color: bisque;
+		z-index: 10;
+	}
+	.screen li{/*图片*/
+		width:500px; 
+		height:500px; 
+		overflow:hidden; 
+		float: left;
+		}
+	.screen ul{ /*列表*/
+		position:absolute;
+		left:0; top:0; 
+		width:3000px;
+	}
+	.all ol{ 
+		position:absolute; 
+		right:100px; 
+		bottom:10px; 
+		line-height:20px; 
+		text-align:center;
+		}
+	.all ol li{ 
+		float:left; 
+		width:20px; 
+		height:20px; 
+		background:#ffcd77; /*编号背景*/
+		border:1px solid #97cc94; /*编号边框颜色*/
+		margin-left:10px; 
+		cursor:pointer;
+		}
+	.all ol li.current{ 
+		background:#bb76cc;
+		}
+	#arr span{ 
+		width:40px; 
+		height:40px; 
+		position:absolute; 
+		left:5px; top:50%; 
+		margin-top:-20px; 
+		background:#97CC94; /*轮播背景*/
+		cursor:pointer; 
+		line-height:40px; 
+		text-align:center; 
+		font-weight:bold; 
+		font-family:'黑体'; 
+		font-size:30px; 
+		color:#ff1760; /*轮播箭头*/
+		opacity:0.3; 
+		border:1px solid #fff;}
+	#arr #right{right:5px; left:auto;}

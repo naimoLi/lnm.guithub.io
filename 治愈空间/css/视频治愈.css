@@ -1,0 +1,13 @@
+		.视频治愈主页{
+			font-size: 50px;
+			color: darkorange;
+			text-align: center;
+			display: block;/*  框类型 block */
+			margin: 0 auto;
+		}
+		.治愈视频{
+			text-align: center;
+			width: 800px;
+			height: 300px;
+			
+		}

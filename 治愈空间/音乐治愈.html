@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>音乐治愈</title>
+		<link href="css/音乐治愈.css" rel="stylesheet" type="text/css" />
+		<link href="css/轮播图.css" rel="stylesheet" type="text/css" />
+		<script src="js/音乐界面.js"> </script>
+	</head>
+	<body bgcolor=bisque style="margin: 0;">
+		<div id="header" style="width: 100%;height: 50px;background-color: coral;top: auto;margin-top: auto;">
+			<a href="index.html" style="width: 100%;height: 100%;font-size: 30px;text-decoration: none;margin-left: 70px;color: cornsilk;">主页</a>
+			<a href="音乐治愈.html" style="width: 100%;height: 5%;font-size: 30px;text-decoration: none;margin-left: 200px;color: cornsilk;">音乐治愈</a>
+			<a href="视频治愈.html" style="width: 100%;height: 5%;font-size: 30px;text-decoration: none;margin-left: 200px;color: cornsilk;">视频治愈</a>
+			<a href="心灵鸡汤.html" style="width: 100%;height: 5%;font-size: 30px;text-decoration: none;margin-left: 200px;color: cornsilk;">心灵鸡汤</a>
+			<a href="旅游治愈.html" style="width: 100%;height: 5%;font-size: 30px;text-decoration: none;margin-left: 200px;color: cornsilk;">旅游治愈</a>
+		</div>
+		<audio controls="controls" autoplay="autoplay" loop="-1" style="float: right;"><!-- -1表示无限循环 true-->
+			<source src="img/淡然Sire%20-%20大眠.mp3" type="audio/mpeg"/><!-- -->
+		</audio><!--添加音乐--><!-- 去除音乐进度条<div style="display:none";cclass="music">	</div>-->
+	</body>
+	<body>	
+			<div class="all" id='all'>
+				<div class="screen" id="screen">
+						<ul id="ul"><!--ul 无序表  li列表-->
+							<li><img src="img/光临.jpg" width="600" height="400" /></li>
+							<li><img src="img/彩虹.jpg" width="600" height="400" /></li>
+							<li><img src="img/熊抱.jpg" width="600" height="400" /></li>
+							<li><img src="img/猪猪.jpg" width="600" height="400" /></li>
+							<li><img src="img/皮卡丘.jpg" width="600"height="400" /></li>
+						</ul>		
+						<ol></ol><!--为列表自动加编号，12345图片 以有序列表的形式显示数据  span定义样式自动-->
+						<div id="arr">						
+							<span id="left"><</span><span id="right">></span>
+						</div>
+				</div>
+			</div>
+			<script src="js/轮播图.js"></script>
+			<div id="menuleft"align="center">
+			<h1 style="color: cornsilk">音乐列表</h1>
+				<a class="音乐链接" style="text-decoration: none;" href="https://music.163.com/song?id=441491828&userid=3866190775">水星记</a>
+				<a class="音乐链接" style="text-decoration: none;" href="https://music.163.com/song?id=1365898499&userid=3866190775">失眠飞行</a>
+				<a class="音乐链接" style="text-decoration: none;"href="https://music.163.com/song?id=25706282&userid=3866190775">夜空中最亮的星</a>
+				<a class="音乐链接" style="text-decoration: none;"href="https://music.163.com/song?id=1356499052&userid=3866190775">千禧</a>
+				<br /><br />
+				<a class="音乐链接" style="text-decoration: none;" href="https://music.163.com/playlist?id=6686195230&userid=3866190775">更多音乐</a>
+			</div>
+			</body>
+
+	</head> 
+</html>
